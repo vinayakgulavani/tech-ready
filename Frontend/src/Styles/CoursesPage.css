@@ -1,0 +1,56 @@
+/* CoursesPage.css */
+
+/* Apply styles to the entire page via an ID */
+#courses-page {
+    background-color: #f8f9fa; /* Light gray background */
+    min-height: 100vh;        /* Full viewport height */
+    padding-top: 2rem;        /* Spacing at the top */
+    padding-bottom: 2rem;     /* Spacing at the bottom */
+    background-image: url('https://tse2.mm.bing.net/th?id=OIP.E3WZVnuubIK4OqhSTF3cqwHaEK&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    
+  }
+  
+  /* Style each card via an ID or combined selectors */
+  #courses-page .card {
+    border: none;            /* Remove default border */
+    border-radius: 12px;     /* Slightly rounded corners */
+    overflow: hidden;        /* Crop overflowing child elements */
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  /* On hover, lift the card slightly */
+  #courses-page .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Force images to cover a fixed height in the card */
+  #courses-page .card-img-top {
+    height: 180px;
+    object-fit: cover; 
+  }
+  
+  /* Progress bar custom style */
+  #courses-page .progress {
+    height: 20px; /* Slightly taller progress bar */
+  }
+  
+  #courses-page .progress-bar {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Subtle text color for the description */
+  #courses-page .course-description {
+    color: #6c757d;
+  }
+  
+  /* Center the 'View Course' button text */
+  #courses-page .btn {
+    text-align: center;
+  }
+  

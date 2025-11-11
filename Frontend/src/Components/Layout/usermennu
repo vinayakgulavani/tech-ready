@@ -1,0 +1,89 @@
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { useAuth } from '../../context/auth';
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
+import { FaBars, FaUserEdit, FaBook, FaTrophy, FaSignOutAlt, FaUserCircle } from "react-icons/fa";
+import "../../Styles/UserMenu.css";
+
+const UserMenu = () => {
+    const [auth, setAuth] = useAuth();
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        setAuth({
+            ...auth,
+            user: null,
+            token: "",
+        });
+        localStorage.removeItem("auth");
+        toast.success("Logout Successfully");
+        navigate("/login");
+    };
+
+    return (
+        <>
+            <div className="user-menu-container">
+                <div className="profile-container">
+                    <h3 className="username">
+                        <FaUserCircle className="user-icon" />
+                        User Profile
+                    </h3>
+                    <button
+                        className="btn d-lg-none profile-btn"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasProfile"
+                        aria-controls="offcanvasLeft"
+                    >
+                        <FaBars className="hamburger-icon dark" />
+                    </button>
+                </div>
+
+                <div 
+                    className="offcanvas-lg offcanvas-end d-lg-block sidebar-lg bg-light shadow-sm userSideBar" 
+                    data-bs-scroll="true" 
+                    tabIndex="-1" 
+                    id="offcanvasProfile" 
+                    aria-labelledby="offcanvasProfileLabel"
+                >
+                    <div className="offcanvas-header">
+                        <h5 className="offcanvas-title" id="offcanvasProfileLabel">Menu</h5>
+                        <button type="button" className="btn-close d-lg-none" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div className="offcanvas-body">
+                        <div className="navigation">
+                            <NavLink 
+                                to={auth?.user?._id ? `/profile/${auth?.user?._id}/edit` : "#"} 
+                                className="nav-link"
+                            >
+                                <FaUserEdit className="icon" /> Edit Profile
+                            </NavLink>
+                            <NavLink 
+                                to={auth?.user?._id ? `/profile/${auth?.user?._id}/courses` : "#"} 
+                                className="nav-link"
+                            >
+                                <FaBook className="icon" /> My Courses
+                            </NavLink>
+                            <NavLink 
+                                to={ auth?.user?._id ? `/profile/${auth?.user?._id}/achievement` : "#"} 
+                                className="nav-link"
+                            >
+                                <FaTrophy className="icon" /> Achievements
+                            </NavLink>
+                            <NavLink 
+                                onClick={handleLogout} 
+                                to="/login" 
+                                className="nav-link logout-btn"
+                            >
+                                <FaSignOutAlt className="icon" /> Logout
+                            </NavLink>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default UserMenu;

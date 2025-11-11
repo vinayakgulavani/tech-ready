@@ -1,0 +1,78 @@
+/* Stylish Heading */
+.heading h1 {
+    font-size: 8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(54, 23, 23);
+    margin-top: 10%;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Text Size */
+@media screen and (max-width: 1200px) {
+    .heading h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .heading h1 {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading h1 {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .heading h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Hover Box Styling */
+.hover-box {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0; /* Square Shape */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.5s ease-out, box-shadow 0.3s ease-in-out;
+    border: 3px solid rgba(0, 0, 0, 0.2); /* Slight Border */
+}
+
+/* Image inside Hover Box */
+.hover-box img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain; /* Ensure the image stays within the square */
+}
+
+/* Hover Area */
+.hover-area {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.hover-area:hover {
+    color: rgb(200, 50, 50);
+}
+
+/* Show Hover Box on Hover */
+.hover-area:hover .hover-box {
+    transform: translateX(-50%) scale(1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}

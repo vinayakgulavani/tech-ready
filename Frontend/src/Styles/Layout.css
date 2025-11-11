@@ -1,0 +1,23 @@
+
+/* Main Content in Between */
+.main-content {
+  flex-grow: 1;
+  min-height: calc(100vh - 10vh);
+  margin-top:  11.5vh;
+  background-color: rgb(167, 203, 203);
+  
+}
+
+ @media screen and (min-width: 990px) {
+  .main-content {
+      margin-left: 300px;
+      /* margin-right: 0px; */
+
+  }
+} 
+
+   
+
+html, body {
+  overflow-x: hidden;
+}

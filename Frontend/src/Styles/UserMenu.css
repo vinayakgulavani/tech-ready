@@ -1,0 +1,146 @@
+/* Base Styles */
+.dashboard-menu-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#user-bar-div {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 3vh;
+    margin-left: 6.5vw;
+    margin-right: 6.5vw;
+    margin-bottom: 2.5vh;
+}
+
+#user-bar-div button{
+    font-size: 2rem;
+
+}
+
+
+
+
+
+
+
+
+/* .profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.user-icon {
+    font-size: 1.8rem;
+}
+
+.profile-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.profile-btn:hover {
+    color: #ddd;
+}
+
+.icon {
+    margin-right: 7px;
+    font-size: 1.2rem;
+}
+
+.logout-btn {
+    color: #d9534f;
+}
+
+.logout-btn:hover {
+    background-color: #f8d7da;
+    color: #c9302c;
+}
+
+.userSideBar{
+border-radius: 8px;
+position: absolute;
+
+
+background: white;
+}
+/* Large Screens (lg and above, min-width: 992px) */
+/* @media (min-width: 992px) {
+    .user-menu-container {
+        margin-top: 20px;
+        justify-content: flex-start; /* Align items to the left or below the main content */
+    /* }
+    .userSideBar {
+        height: min-content;
+        margin-left: 325px;
+        margin-top: 120px;
+    }
+} 
+
+\\ @media (max-width: 991.98px) {
+    .user-menu-container {
+        justify-content: flex-end; 
+        margin-right: 10px;
+    }
+    .userSideBar {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1050px) {
+    .userSideBar {
+        width: 135px;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1100px) {
+    .userSideBar {
+        width: 155px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .userSideBar {
+        width: 175px;
+    } 
+ } 
+
+ @media (min-width: 1200px) and (max-width: 1300px) {
+    .userSideBar {
+        width: 200px;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .userSideBar {
+        width: 230px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .userSideBar {
+        width: 250px;
+    }
+}  */

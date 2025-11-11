@@ -1,0 +1,73 @@
+/* UpdateTechnology.css */
+#update-technology-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #technology-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  #technology-form .form-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  #technology-form .form-control,
+  #technology-form .form-select {
+    border-radius: 5px;
+  }
+  
+  #submit-btn {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  #technology-form .input-group {
+    margin-bottom: 10px;
+  }
+  
+  #technology-form button {
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #technology-form {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    #update-technology-title {
+      font-size: 2rem;
+    }
+  
+    #submit-btn {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #update-technology-title {
+      font-size: 1.5rem;
+    }
+  
+    #technology-form .form-label {
+      font-size: 1rem;
+    }
+  
+    #technology-form button {
+      padding: 8px 16px;
+    }
+  }
+  

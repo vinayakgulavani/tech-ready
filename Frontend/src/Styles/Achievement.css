@@ -1,0 +1,53 @@
+/* AchievementsPage.css */
+
+/* Main container styling using ID */
+#achievements-page {
+    background-color: #f9f9f9; /* Light background */
+    min-height: 100vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Card styling */
+  #achievements-page .achievement-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  #achievements-page .achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image at the top */
+  #achievements-page .card-img-top {
+    width: 100%;
+    height: 200px;         /* Fixed height for consistency */
+    object-fit: cover;     /* Ensure the image covers the area */
+  }
+  
+  /* Card body padding and text styling */
+  #achievements-page .card-body {
+    padding: 1.5rem;
+  }
+  
+  #achievements-page .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  #achievements-page .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Certificate button styling */
+  #achievements-page .btn {
+    margin-top: 1rem;
+  }
+  

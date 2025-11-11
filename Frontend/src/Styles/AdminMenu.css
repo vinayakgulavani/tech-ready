@@ -1,0 +1,48 @@
+/* Admin Panel Main Container */
+
+
+
+/* Dashboard Menu */
+#dashboard-menu {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+@media (min-width: 500px) {
+    #dashboard-menu {
+        max-width: 300px;
+        min-width: 100px;
+    }
+}
+
+@media (min-width: 650px) {
+    #dashboard-menu {
+        max-width: 400px;
+min-width: 150px;
+    }
+
+}
+
+
+@media (min-width: 770px) {
+    #dashboard-menu {
+        max-width: 500px;
+min-width: 200px;
+    }
+
+}
+
+@media (min-width: 800px) {
+    #dashboard-menu {
+        max-width: 500px;
+        min-width: 200px;
+    }
+
+}
+
+@media (min-width: 990px) {
+    #dashboard-menu {
+        min-width: 230px;
+    }
+
+}
