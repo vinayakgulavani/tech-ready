@@ -8,24 +8,27 @@ It provides structured programming tutorials, real-world project insights, and s
 ## 🖼️ Project Screenshots  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c697ab50-dc13-49e1-b777-23fb500ee801" width="800"/>
+  <img src="https://github.com/user-attachments/assets/c35be77f-d2c4-4d20-bf1d-0afaa5891b32" width="800"/>
   <br><em>📌 Dashboard Overview</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/65780809-1b0b-40ba-b607-8c0692547ecc" width="800"/>
+  <img src="https://github.com/user-attachments/assets/2668b1ed-eea2-4fa9-a761-fc1ad39b2a86" width="800"/>
   <br><em>📌 Profile </em>
 </p>
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7f6bccf9-31d6-47ee-95e8-37c2a50f7d37" width="800"/>
+  <img src="https://github.com/user-attachments/assets/e85ccb5f-94a1-4271-a26f-c325c2bb64ed" width="800"/>
   <br><em>📌 Lesson Details</em>
 </p>
 
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dc307316-9bb7-41b6-ab0a-e1caad860496" width="800"/>
+  <img src="https://github.com/user-attachments/assets/3d4dbbef-941c-4793-8224-48ce5575ff56" width="800"/>
   <br><em>📌 Mock Test</em>
 </p>
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93c441a4-2267-4252-b1a8-12602485187d" width="800"/>
@@ -45,7 +48,7 @@ It provides structured programming tutorials, real-world project insights, and s
   <img src="https://github.com/user-attachments/assets/b451c776-512b-419c-81cf-8432ea5650b7" width="300"/>
   <img src="https://github.com/user-attachments/assets/0180664e-e1d7-4572-b7a3-6086e75a6695" width="300"/>
 </p>  
-<img width="540" height="1170" alt="Screenshot 2025-11-11 121209"  />
+
 
 ---
 
