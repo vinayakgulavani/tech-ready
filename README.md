@@ -43,8 +43,9 @@ It provides structured programming tutorials, real-world project insights, and s
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b451c776-512b-419c-81cf-8432ea5650b7" width="300"/>
-  <img src="https://github.com/user-attachments/assets/421fa942-e6e0-401f-8834-89873a2d5caf" width="300"/>
+  <img src="https://github.com/user-attachments/assets/0180664e-e1d7-4572-b7a3-6086e75a6695" width="300"/>
 </p>  
+<img width="540" height="1170" alt="Screenshot 2025-11-11 121209"  />
 
 ---
 
