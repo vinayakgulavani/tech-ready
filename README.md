@@ -25,15 +25,10 @@ It provides structured programming tutorials, real-world project insights, and s
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3d4dbbef-941c-4793-8224-48ce5575ff56" width="800"/>
+  <img src="https://github.com/user-attachments/assets/c0dac55c-fbcd-46d3-9fd6-d247f29b8ae1"width="800"/>
   <br><em>📌 Mock Test</em>
 </p>
 
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/93c441a4-2267-4252-b1a8-12602485187d" width="800"/>
-  <br><em>📌 Course Details</em>
-</p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5228669d-286d-42e4-b516-97656610334d" width="800"/>
